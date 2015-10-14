@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="SharedProjectFile_SccProperties">
+    <SharedProjectFile_ProjectGuid>{b0dd6ab0-1b3e-4358-8c56-f541eedfbec7}</SharedProjectFile_ProjectGuid>
+    <SharedProjectFile_SccProjectName>SAK</SharedProjectFile_SccProjectName>
+    <SharedProjectFile_SccAuxPath>SAK</SharedProjectFile_SccAuxPath>
+    <SharedProjectFile_SccLocalPath>SAK</SharedProjectFile_SccLocalPath>
+    <SharedProjectFile_SccProvider>SAK</SharedProjectFile_SccProvider>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>64be5474-5f82-47a9-bf1e-70a0bb05be1d</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>OmuBumu</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviors\Behavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviors\PasswordBoxPlaceHolderBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviors\TextBoxPlaceHolderBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\DataClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Types\Kategori.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Types\Oylar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Types\ResultContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Types\Soru.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Types\SoruDetay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Types\User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Types\Yorumlar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GirisPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper\DataEncrypter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper\FileHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper\Mesaj.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper\Navigator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper\SettingsHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HosgeldinPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)KayitOlPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProfilGuncelle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SifremiUnuttum.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SoruDetay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SoruEkle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SoruListeleme.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UyeProfili.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\backbutton.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Başlıksız-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\facebook2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Fonts\AvenirLTStd-BookOblique.otf" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Fonts\AvenirLTStd-Light.otf" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Fonts\TitilliumText22L001.otf" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Fonts\TitilliumText22L002.otf" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Fonts\TitilliumText22L003.otf" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Fonts\TitilliumText22L004.otf" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Fonts\TitilliumText22L005.otf" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Fonts\TitilliumText22L006.otf" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\geritusu.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\globe35.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\HosgeldinImages\ImgAyarlar.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\HosgeldinImages\ImgCikis.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\instagram19.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\logobg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ly2Plk.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\oZPqv2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\profil.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\twitter.png" />
+  </ItemGroup>
+</Project>

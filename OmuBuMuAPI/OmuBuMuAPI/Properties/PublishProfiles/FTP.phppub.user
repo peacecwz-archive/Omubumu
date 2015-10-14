@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqBi5JG6YMEWhGfHbZiKt9wAAAAACAAAAAAAQZgAAAAEAACAAAADPs12rUZu2yIAQjmzO8ISXBgthfIIp8sz6T/iX8hlxBQAAAAAOgAAAAAIAACAAAAD7ybZj/glTs1/oKm3eT+vm4ehzluofxnRxCGIU7aEdhSAAAACJraDJDLEt5YHS/KNKP1BJVYJY+F7MOGtc1y1H0eVr80AAAADw+ANNVi7PnpdsG5vJj1Zz9Ib9mXJ5KwVEi0kC7Nj1yKkANinMgEyV4eUPpBceTquUi0cIj8qhH7D6ZxsF9lsd</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include=".htaccess">
+      <publishTime>07/22/2015 15:12:20</publishTime>
+    </File>
+    <File Include="Core/config.php">
+      <publishTime>07/21/2015 19:25:22</publishTime>
+    </File>
+    <File Include="Core/DataCrypter.php">
+      <publishTime>07/22/2015 02:03:29</publishTime>
+    </File>
+    <File Include="Core/DBConnect.php">
+      <publishTime>07/21/2015 19:25:23</publishTime>
+    </File>
+    <File Include="Core/DbHandler.php">
+      <publishTime>07/22/2015 00:44:57</publishTime>
+    </File>
+    <File Include="Helpers/APIHelper.php">
+      <publishTime>07/21/2015 19:25:24</publishTime>
+    </File>
+    <File Include="Helpers/SMTP/class.phpmailer.php">
+      <publishTime>07/21/2015 19:25:29</publishTime>
+    </File>
+    <File Include="Helpers/SMTP/class.pop3.php">
+      <publishTime>07/21/2015 19:25:26</publishTime>
+    </File>
+    <File Include="Helpers/SMTP/class.smtp.php">
+      <publishTime>07/21/2015 19:25:27</publishTime>
+    </File>
+    <File Include="index.php">
+      <publishTime>07/22/2015 15:12:21</publishTime>
+    </File>
+    <File Include="SifremiUnuttum/config.php">
+      <publishTime>07/19/2015 11:08:22</publishTime>
+    </File>
+    <File Include="SifremiUnuttum/DBConnect.php">
+      <publishTime>07/19/2015 11:08:21</publishTime>
+    </File>
+    <File Include="SifremiUnuttum/HesapSifirla.php">
+      <publishTime>07/20/2015 00:36:39</publishTime>
+    </File>
+    <File Include="SifremiUnuttum/SMTP/class.phpmailer.php">
+      <publishTime>07/19/2015 11:08:29</publishTime>
+    </File>
+    <File Include="SifremiUnuttum/SMTP/class.pop3.php">
+      <publishTime>07/19/2015 11:08:28</publishTime>
+    </File>
+    <File Include="SifremiUnuttum/SMTP/class.smtp.php">
+      <publishTime>07/19/2015 11:08:26</publishTime>
+    </File>
+    <File Include="Slim/Environment.php">
+      <publishTime>07/21/2015 19:27:13</publishTime>
+    </File>
+    <File Include="Slim/Exception/Pass.php">
+      <publishTime>07/21/2015 19:27:14</publishTime>
+    </File>
+    <File Include="Slim/Exception/Stop.php">
+      <publishTime>07/21/2015 19:27:14</publishTime>
+    </File>
+    <File Include="Slim/Helper/Set.php">
+      <publishTime>07/21/2015 19:27:26</publishTime>
+    </File>
+    <File Include="Slim/Http/Cookies.php">
+      <publishTime>07/21/2015 19:27:14</publishTime>
+    </File>
+    <File Include="Slim/Http/Headers.php">
+      <publishTime>07/21/2015 19:27:14</publishTime>
+    </File>
+    <File Include="Slim/Http/Request.php">
+      <publishTime>07/21/2015 19:27:14</publishTime>
+    </File>
+    <File Include="Slim/Http/Response.php">
+      <publishTime>07/21/2015 19:27:14</publishTime>
+    </File>
+    <File Include="Slim/Http/Util.php">
+      <publishTime>07/21/2015 19:27:14</publishTime>
+    </File>
+    <File Include="Slim/Log.php">
+      <publishTime>07/21/2015 19:27:13</publishTime>
+    </File>
+    <File Include="Slim/LogWriter.php">
+      <publishTime>07/21/2015 19:27:14</publishTime>
+    </File>
+    <File Include="Slim/Middleware.php">
+      <publishTime>07/21/2015 19:27:13</publishTime>
+    </File>
+    <File Include="Slim/Middleware/ContentTypes.php">
+      <publishTime>07/21/2015 19:27:23</publishTime>
+    </File>
+    <File Include="Slim/Middleware/Flash.php">
+      <publishTime>07/21/2015 19:27:18</publishTime>
+    </File>
+    <File Include="Slim/Middleware/MethodOverride.php">
+      <publishTime>07/21/2015 19:27:17</publishTime>
+    </File>
+    <File Include="Slim/Middleware/PrettyExceptions.php">
+      <publishTime>07/21/2015 19:27:25</publishTime>
+    </File>
+    <File Include="Slim/Middleware/SessionCookie.php">
+      <publishTime>07/21/2015 19:27:24</publishTime>
+    </File>
+    <File Include="Slim/Route.php">
+      <publishTime>07/21/2015 19:27:13</publishTime>
+    </File>
+    <File Include="Slim/Router.php">
+      <publishTime>07/21/2015 19:27:13</publishTime>
+    </File>
+    <File Include="Slim/Slim.php">
+      <publishTime>07/21/2015 19:27:13</publishTime>
+    </File>
+    <File Include="Slim/View.php">
+      <publishTime>07/21/2015 19:27:13</publishTime>
+    </File>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Uploads" />
+    <Folder Include="Uploads/ProfileImages" />
+    <Folder Include="Uploads/SoruImages" />
+    <Folder Include="Uploads/YorumImages" />
+  </ItemGroup>
+</Project>

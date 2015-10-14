@@ -1,0 +1,11 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\apalyazilim\desktop\omubumu\omubumuua\omubumu\omubumu.windowsphone\obj\debug\intermediatexaml\omubumu.windowsphone.exe" HashGuid="8fa8eb76-12bc-467d-c994-fdff6429e6e2" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
+    <ReferenceAssembly PathName="c:\users\apalyazilim\desktop\omubumu\omubumuua\omubumu\omubumu.windowsphone\bin\debug\custom.controls.pulltorefreshlistview.dll" HashGuid="fa7e4238-e17c-f163-10de-4dde3bbc285a" />
+    <ReferenceAssembly PathName="c:\users\apalyazilim\desktop\omubumu\omubumuua\packages\newtonsoft.json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="0b4cdfc1-2257-2e75-23cf-4052e97b309e" />
+    <ReferenceAssembly PathName="c:\users\apalyazilim\desktop\omubumu\omubumuua\packages\winrthttpclienthandler.1.0\lib\portable-win81+wpa81\windowsruntime.httpclientfilters.dll" HashGuid="dccde4c6-a08e-fa87-b0be-15ab2c9356c0" />
+    <ReferenceAssembly PathName="c:\users\apalyazilim\desktop\omubumu\omubumuua\packages\writeablebitmapex.1.5.0.0\lib\wpa81\writeablebitmapex.winrt.dll" HashGuid="6dd9ab30-a8ea-e714-1c9c-a07c544a2da6" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

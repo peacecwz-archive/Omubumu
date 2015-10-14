@@ -1,0 +1,70 @@
+﻿<Page
+    x:Class="OmuBumu.SoruEkle"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OmuBumu"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:activity="using:Microsoft.Xaml.Interactivity"
+    xmlns:behavior="using:OmuBumu.Behaviors"
+    mc:Ignorable="d">
+    <Page.Background>
+        <ImageBrush Stretch="Fill"/>
+    </Page.Background>
+
+    <Grid Background="#3598db">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.RowSpan="1">
+                <Image x:ConnectionId='4'                      Width="40" HorizontalAlignment="Left" VerticalAlignment="Center" Source="Assets/backbutton.png"/>
+                <TextBlock Text="Soru Ekle" FontSize="15"  HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <ScrollViewer  Grid.Row="1" Grid.RowSpan="1">
+                <Grid  ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.HorizontalScrollMode="Enabled" ScrollViewer.IsHorizontalRailEnabled="True" >
+                    <StackPanel Orientation="Vertical">
+                        <TextBox x:Name="Baslik" TextWrapping="Wrap" Height="62" FontSize="17.593" Background="White" BorderBrush="White" Foreground="Black" FontFamily="Assets/TitilliumText22L002.otf#TitilliumText22L Lt">
+                            <activity:Interaction.Behaviors>
+                                <behavior:TextBoxPlaceHolderBehavior
+                     PlaceHolderText="Başlık"
+                     PlaceHolderTextAlignment="Left"
+                     PlaceHolderTextFontStyle="Normal"
+                     PlaceHolderTextForeground="#3598db"/>
+                            </activity:Interaction.Behaviors>
+                        </TextBox>
+                        <TextBox x:Name="Aciklama" TextWrapping="Wrap" Height="101" FontSize="17.593" FontFamily="Assets/TitilliumText22L002.otf#TitilliumText22L Lt" Background="White" BorderBrush="White" Foreground="Black">
+                            <activity:Interaction.Behaviors>
+                                <behavior:TextBoxPlaceHolderBehavior
+                     PlaceHolderText="Açıklama"
+                     PlaceHolderTextAlignment="Left"
+                     PlaceHolderTextFontStyle="Normal"
+                     PlaceHolderTextForeground="#3598db"/>
+                            </activity:Interaction.Behaviors>
+
+                        </TextBox>
+                        <ComboBox x:Name="comboBox" Background="Transparent" BorderBrush="White" Foreground="#3598db" PlaceholderText="Kategori Seç"></ComboBox>
+                        <Grid>
+                            <Button x:ConnectionId='2' x:Name="birinciresim" BorderBrush="Transparent" HorizontalAlignment="Left"                            Width="175" Height="175">
+                                <Button.Background>
+                                    <ImageBrush Stretch="Fill" ImageSource="Assets/ly2Plk.png"/>
+                                </Button.Background>
+                            </Button>
+                            <Button x:ConnectionId='3' x:Name="ikinciresim" BorderBrush="Transparent" HorizontalAlignment="Right"                           Width="175" Height="175">
+                                <Button.Background>
+                                    <ImageBrush Stretch="Fill" ImageSource="Assets/ly2Plk.png"/>
+                                </Button.Background>
+                            </Button>
+                        </Grid>
+                    </StackPanel>
+                    <Button x:ConnectionId='1' x:Name="paylasbutton" Content="GÖNDER" HorizontalAlignment="Stretch" VerticalAlignment="Top"                            BorderBrush="Transparent" FontSize="16.807" Grid.Row="1" Margin="-2,481,2,0" Height="41" Background="#FF2980B9"/>
+                </Grid>
+            </ScrollViewer>
+        </Grid>
+        <ProgressRing x:Name="progressBar" IsActive="False"/>
+    </Grid>
+
+</Page>
+

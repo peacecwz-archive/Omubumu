@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="OmuBumu.SifremiUnuttum"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OmuBumu"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:activity="using:Microsoft.Xaml.Interactivity"
+    xmlns:behavior="using:OmuBumu.Behaviors"
+    mc:Ignorable="d">
+
+    <Grid Background="#3598db">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="10*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.RowSpan="1">
+                <Image Tapped="Geri_Tapped" Width="40" HorizontalAlignment="Left" VerticalAlignment="Center" Source="Assets/backbutton.png"/>
+                <TextBlock Text="Şifremi Unuttum" FontSize="15"  HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <StackPanel Grid.Row="1" Grid.RowSpan="1" Orientation="Vertical" VerticalAlignment="Center">
+                <TextBox x:Name="txtEmail" Background="White" BorderBrush="White" RenderTransformOrigin="0.926,0.402">
+                    <activity:Interaction.Behaviors>
+                        <behavior:TextBoxPlaceHolderBehavior
+                     PlaceHolderText="E-Mail Adresiniz"
+                     PlaceHolderTextAlignment="Left"
+                     PlaceHolderTextFontStyle="Normal"
+                     PlaceHolderTextForeground="#3598db"/>
+                    </activity:Interaction.Behaviors>
+                </TextBox>
+                <Button Content="Gönder" Height="70" HorizontalAlignment="Stretch" VerticalAlignment="Top" Click="Gonder_Click" Background="#FF2980B9" BorderBrush="Transparent" FontFamily="Assets/Fonts/AvenirLTStd-Light.otf#Avenir LT Std 35 Light"/>
+            </StackPanel>
+        </Grid>
+        <ProgressRing x:Name="progressBar" IsActive="False"/>
+    </Grid>
+</Page>

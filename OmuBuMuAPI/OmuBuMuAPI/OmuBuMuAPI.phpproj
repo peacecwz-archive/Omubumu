@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>OmuBuMuAPI</Name>
+    <ProjectGuid>12f9d4b2-66d1-43ab-affd-4a827cdbb550</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>OmuBuMuAPI</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>OmuBuMuAPI</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Core\Config.php" />
+    <Compile Include="Core\DataCrypter.php" />
+    <Compile Include="Core\DBConnect.php" />
+    <Compile Include="Core\DBHandler.php" />
+    <Compile Include="Helpers\APIHelper.php" />
+    <Compile Include="Helpers\SMTP\class.phpmailer.php" />
+    <Compile Include="Helpers\SMTP\class.pop3.php" />
+    <Compile Include="Helpers\SMTP\class.smtp.php" />
+    <Compile Include="SifremiUnuttum\config.php" />
+    <Compile Include="SifremiUnuttum\DBConnect.php" />
+    <Compile Include="SifremiUnuttum\HesapSifirla.php" />
+    <Compile Include="index.php" />
+    <Compile Include="SifremiUnuttum\SMTP\class.phpmailer.php" />
+    <Compile Include="SifremiUnuttum\SMTP\class.pop3.php" />
+    <Compile Include="SifremiUnuttum\SMTP\class.smtp.php" />
+    <Compile Include="Slim\Environment.php" />
+    <Compile Include="Slim\Exception\Pass.php" />
+    <Compile Include="Slim\Exception\Stop.php" />
+    <Compile Include="Slim\Helper\Set.php" />
+    <Compile Include="Slim\Http\Cookies.php" />
+    <Compile Include="Slim\Http\Headers.php" />
+    <Compile Include="Slim\Http\Request.php" />
+    <Compile Include="Slim\Http\Response.php" />
+    <Compile Include="Slim\Http\Util.php" />
+    <Compile Include="Slim\Log.php" />
+    <Compile Include="Slim\LogWriter.php" />
+    <Compile Include="Slim\Middleware.php" />
+    <Compile Include="Slim\Middleware\ContentTypes.php" />
+    <Compile Include="Slim\Middleware\Flash.php" />
+    <Compile Include="Slim\Middleware\MethodOverride.php" />
+    <Compile Include="Slim\Middleware\PrettyExceptions.php" />
+    <Compile Include="Slim\Middleware\SessionCookie.php" />
+    <Compile Include="Slim\Route.php" />
+    <Compile Include="Slim\Router.php" />
+    <Compile Include="Slim\Slim.php" />
+    <Compile Include="Slim\View.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Helpers\SMTP\" />
+    <Folder Include="SifremiUnuttum\" />
+    <Folder Include="SifremiUnuttum\SMTP\" />
+    <Folder Include="Uploads\" />
+    <Folder Include="Slim\" />
+    <Folder Include="Slim\Exception\" />
+    <Folder Include="Slim\Helper\" />
+    <Folder Include="Slim\Http\" />
+    <Folder Include="Slim\Middleware\" />
+    <Folder Include="Uploads\SoruImages\" />
+    <Folder Include="Uploads\YorumImages\" />
+    <Folder Include="Uploads\ProfileImages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".htaccess" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="OmuBumu.GirisPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OmuBumu"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:activity="using:Microsoft.Xaml.Interactivity"
+    xmlns:behavior="using:OmuBumu.Behaviors"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#3598db">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Image Width="225" Height="225" Stretch="Fill" Source="Assets/logobg.png" Grid.RowSpan="1"/>
+            <Grid Grid.Row="2" Grid.RowSpan="2" >
+                <ScrollViewer>
+                    <StackPanel ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.HorizontalScrollMode="Enabled" ScrollViewer.IsHorizontalRailEnabled="True" Orientation="Vertical" >
+                        <TextBox x:ConnectionId='1' x:Name="txtKullaniciAdi"                        TabIndex="1" Background="White" BorderBrush="White" Height="42">
+                            <activity:Interaction.Behaviors>
+                                <behavior:TextBoxPlaceHolderBehavior
+                     PlaceHolderText="Kullanıcı Adı"
+                     PlaceHolderTextAlignment="Left"
+                     PlaceHolderTextFontStyle="Normal"
+                     PlaceHolderTextForeground="#3598db"/>
+                            </activity:Interaction.Behaviors>
+                        </TextBox>
+                        <PasswordBox x:ConnectionId='2'  x:Name="txtSifre"                        IsTapEnabled="True" TabIndex="2" TabNavigation="Cycle" Height="42" Background="White" BorderBrush="White" SelectionHighlightColor="Transparent">
+                            <activity:Interaction.Behaviors>
+                                <behavior:PasswordBoxPlaceHolderBehavior
+                     PlaceHolderText="Şifre"
+                     PlaceHolderTextFontStyle="Normal"
+                     PlaceHolderTextForeground="#3598db"/>
+                            </activity:Interaction.Behaviors>
+                        </PasswordBox>
+                        <Button x:ConnectionId='3'                      Height="60"                        Content="Giriş Yap" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontFamily="Assets/AvenirLTStd-BookOblique.otf#Avenir LT Std 45 Book" Background="#FF2980B9" BorderBrush="Transparent"/>
+                        <Button x:ConnectionId='4' FontSize="15" Height="2" HorizontalAlignment="Right" Content="Şifremi Unuttum" VerticalAlignment="Center" FontFamily="Assets/AvenirLTStd-BookOblique.otf#Avenir LT Std 45 Book" Background="#3498db" BorderBrush="Transparent"                              Width="150"/>
+                        <Button x:ConnectionId='5' x:Name="kayitolbutton" Height="60" Content="Hesabınız yok mu? Şimdi Üye Ol" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontFamily="Assets/AvenirLTStd-BookOblique.otf#Avenir LT Std 45 Book" Background="#3498db" BorderBrush="Transparent"                            />
+                    </StackPanel>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+        <ProgressRing x:Name="progressBar" IsActive="False" />
+    </Grid>
+</Page>
+

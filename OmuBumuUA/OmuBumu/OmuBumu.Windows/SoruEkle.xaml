@@ -1,0 +1,55 @@
+﻿<Page
+    x:Class="OmuBumu.SoruEkle"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OmuBumu"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:activity="using:Microsoft.Xaml.Interactivity"
+    xmlns:behavior="using:OmuBumu.Behaviors"
+    mc:Ignorable="d">
+
+    <Grid Background="#3598db">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.RowSpan="1">
+                <Image Tapped="Geri_Tapped" Width="40" HorizontalAlignment="Left" VerticalAlignment="Center" Source="Assets/back-icon.png"/>
+                <TextBlock Text="Soru" FontSize="25"  HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+
+            <StackPanel Orientation="Vertical" Grid.Row="1" Grid.RowSpan="1" Margin="0,0,0,163">
+                <TextBox x:Name="Baslik" TextWrapping="Wrap" Height="38" FontSize="17.593" Background="Transparent" BorderBrush="Transparent" Foreground="White" FontFamily="Assets/TitilliumText22L002.otf#TitilliumText22L Lt">
+                    <activity:Interaction.Behaviors>
+                        <behavior:TextBoxPlaceHolderBehavior
+                     PlaceHolderText="Başlık"
+                     PlaceHolderTextAlignment="Left"
+                     PlaceHolderTextFontStyle="Normal"
+                     PlaceHolderTextForeground="White"/>
+                    </activity:Interaction.Behaviors>
+                </TextBox>
+                <TextBox x:Name="Aciklama" TextWrapping="Wrap" Height="89" FontSize="17.593" FontFamily="Assets/TitilliumText22L002.otf#TitilliumText22L Lt" Background="Transparent" BorderBrush="Transparent" Foreground="White">
+                    <activity:Interaction.Behaviors>
+                        <behavior:TextBoxPlaceHolderBehavior
+                     PlaceHolderText="Açıklama"
+                     PlaceHolderTextAlignment="Left"
+                     PlaceHolderTextFontStyle="Normal"
+                     PlaceHolderTextForeground="White"/>
+                    </activity:Interaction.Behaviors>
+
+                </TextBox>
+                <ComboBox x:Name="comboBox" Background="White"></ComboBox>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="birinciresim" Content="First Image Select" HorizontalAlignment="Left" VerticalAlignment="Top" Click="birinciresim_Click" Width="35" Height="105" Opacity="0"/>
+                    <Button x:Name="ikinciresim" Content="Second Image Select" HorizontalAlignment="Right" VerticalAlignment="Top" Click="ikinciresim_Click" Width="34" Height="104" Opacity="0"/>
+                </StackPanel>
+
+            </StackPanel>
+            <Button x:Name="paylasbutton" Content="GÖNDER" HorizontalAlignment="Stretch" VerticalAlignment="Top" Click="paylasbutton_Click" BorderBrush="Transparent" FontSize="20" Background="#FF2980B9" Margin="-7,605,7,0" Grid.Row="1" Height="68" FontFamily="Assets/AvenirLTStd-Light.otf#Avenir LT Std 35 Light"/>
+        </Grid>
+        <ProgressRing x:Name="progressBar" IsActive="False"/>
+    </Grid>
+</Page>

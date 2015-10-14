@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-fr"
+"ResourceDimensions"		"language-fr-fr"
+
+[Files]
+"C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.WindowsPhone\obj\Release\split.language-fr.pri"			"resources.pri"

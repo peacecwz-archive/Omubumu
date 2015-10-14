@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="OmuBumu.HosgeldinPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OmuBumu"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF3498DB">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="96*"/>
+            <RowDefinition Height="425*"/>
+            <RowDefinition Height="119*"/>
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Right" Tapped="Profile_Tapped" Orientation="Horizontal" Grid.RowSpan="1">
+            <TextBlock x:Name="txtKullaniciAdi" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="18.667" FontFamily="Assets/AvenirLTStd-Light.otf#Avenir LT Std 35 Light" />
+            <Ellipse x:Name="imgProfil" Height="75" Width="75" HorizontalAlignment="Right"  VerticalAlignment="Center">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="Assets/profil.png"/>
+                </Ellipse.Fill>
+            </Ellipse>
+        </StackPanel>
+        <Grid Grid.Row="1" Grid.RowSpan="1">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+                <Button Click="SoruNaviButton_Click" x:Name="SoruNaviButton" Content="Soru Ekle" HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="272" BorderBrush="Transparent" Grid.Row="1"/>
+                <Button x:Name="SoruListelemeNaviButton" Content="Sorular" HorizontalAlignment="Left" VerticalAlignment="Top" Click="SoruListelemeNaviButton_Click" Width="272" Height="13" BorderBrush="Transparent" FontFamily="Assets/AvenirLTStd-Light.otf#Avenir LT Std 35 Light" Grid.Row="1"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.RowSpan="2">
+            <Image Tapped="Cikis_Tapped" HorizontalAlignment="Left" VerticalAlignment="Center" Source="Assets/HosgeldinImages/ImgCikis.jpg" />
+            <Image Tapped="ProfileGuncelle_Tapped" HorizontalAlignment="Right" VerticalAlignment="Center" Source="Assets/HosgeldinImages/ImgAyarlar.jpg"/>
+        </Grid>
+    </Grid>
+</Page>

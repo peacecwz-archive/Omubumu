@@ -1,0 +1,4 @@
+MainPackage=C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.WindowsPhone\bin\Release\OmuBumu.WindowsPhone_2015.726.2107.2963_AnyCPU.appx
+SymbolPackage=C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.WindowsPhone\AppPackages\OmuBumu.WindowsPhone_2015.726.2107.2963_Test\OmuBumu.WindowsPhone_2015.726.2107.2963_AnyCPU.appxsym
+ResourcePack=C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.WindowsPhone\bin\Release\OmuBumu.WindowsPhone_2015.726.2107.2963_scale-100.appx
+ResourcePack=C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.WindowsPhone\bin\Release\OmuBumu.WindowsPhone_2015.726.2107.2963_scale-140.appx

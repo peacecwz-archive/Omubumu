@@ -1,0 +1,13 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-100"
+"ResourceDimensions"		"scale-100"
+
+[Files]
+"C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.WindowsPhone\obj\Release\filemap.scale-100.pri"			"resources.pri"
+"C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.WindowsPhone\obj\Release\PackageLayout\Assets\StoreLogo.scale-100.png"			"Assets\StoreLogo.scale-100.png"
+"C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.WindowsPhone\obj\Release\PackageLayout\Assets\SplashScreen.scale-100.jpg"			"Assets\SplashScreen.scale-100.jpg"
+"C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.WindowsPhone\obj\Release\PackageLayout\Assets\BadgeLogo.scale-100.png"			"Assets\BadgeLogo.scale-100.png"
+"C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.WindowsPhone\obj\Release\PackageLayout\Assets\71x71.scale-100.png"			"Assets\71x71.scale-100.png"
+"C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.WindowsPhone\obj\Release\PackageLayout\Assets\44x44.scale-100.png"			"Assets\44x44.scale-100.png"
+"C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.WindowsPhone\obj\Release\PackageLayout\Assets\310x150.scale-100.png"			"Assets\310x150.scale-100.png"
+"C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.WindowsPhone\obj\Release\PackageLayout\Assets\150x150.scale-100.png"			"Assets\150x150.scale-100.png"

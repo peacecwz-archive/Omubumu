@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="34914HighSchoolDevelopers.OmuBumu" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>EN-US</Language>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GirisPage.xbf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/GirisPage.xbf">
+				<Candidate type="Path">
+					<Value>GirisPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HosgeldinPage.xbf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/HosgeldinPage.xbf">
+				<Candidate type="Path">
+					<Value>HosgeldinPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="KayitOlPage.xbf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/KayitOlPage.xbf">
+				<Candidate type="Path">
+					<Value>KayitOlPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="OmuBumu.WindowsPhone.xr.xml" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/OmuBumu.WindowsPhone.xr.xml">
+				<Candidate type="Path">
+					<Value>OmuBumu.WindowsPhone.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ProfilGuncelle.xbf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/ProfilGuncelle.xbf">
+				<Candidate type="Path">
+					<Value>ProfilGuncelle.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SifremiUnuttum.xbf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/SifremiUnuttum.xbf">
+				<Candidate type="Path">
+					<Value>SifremiUnuttum.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SoruDetay.xbf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/SoruDetay.xbf">
+				<Candidate type="Path">
+					<Value>SoruDetay.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SoruEkle.xbf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/SoruEkle.xbf">
+				<Candidate type="Path">
+					<Value>SoruEkle.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SoruListeleme.xbf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/SoruListeleme.xbf">
+				<Candidate type="Path">
+					<Value>SoruListeleme.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="UyeProfili.xbf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/UyeProfili.xbf">
+				<Candidate type="Path">
+					<Value>UyeProfili.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="150x150.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/150x150.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\150x150.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="310x150.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/310x150.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\310x150.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="44x44.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/44x44.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\44x44.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="71x71.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/71x71.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\71x71.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="backbutton.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/backbutton.png">
+					<Candidate type="Path">
+						<Value>Assets\backbutton.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BadgeLogo.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/BadgeLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\BadgeLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Başlıksız-1.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/Başlıksız-1.png">
+					<Candidate type="Path">
+						<Value>Assets\Başlıksız-1.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="facebook2.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/facebook2.png">
+					<Candidate type="Path">
+						<Value>Assets\facebook2.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="geritusu.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/geritusu.png">
+					<Candidate type="Path">
+						<Value>Assets\geritusu.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="globe35.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/globe35.png">
+					<Candidate type="Path">
+						<Value>Assets\globe35.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="instagram19.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/instagram19.png">
+					<Candidate type="Path">
+						<Value>Assets\instagram19.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logobg.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/logobg.png">
+					<Candidate type="Path">
+						<Value>Assets\logobg.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ly2Plk.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/ly2Plk.png">
+					<Candidate type="Path">
+						<Value>Assets\ly2Plk.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="oZPqv2.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/oZPqv2.png">
+					<Candidate type="Path">
+						<Value>Assets\oZPqv2.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="profil.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/profil.png">
+					<Candidate type="Path">
+						<Value>Assets\profil.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.jpg" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/SplashScreen.jpg">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-240.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="twitter.png" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/twitter.png">
+					<Candidate type="Path">
+						<Value>Assets\twitter.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Fonts">
+					<NamedResource name="AvenirLTStd-BookOblique.otf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/Fonts/AvenirLTStd-BookOblique.otf">
+						<Candidate type="Path">
+							<Value>Assets\Fonts\AvenirLTStd-BookOblique.otf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AvenirLTStd-Light.otf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/Fonts/AvenirLTStd-Light.otf">
+						<Candidate type="Path">
+							<Value>Assets\Fonts\AvenirLTStd-Light.otf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TitilliumText22L001.otf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/Fonts/TitilliumText22L001.otf">
+						<Candidate type="Path">
+							<Value>Assets\Fonts\TitilliumText22L001.otf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TitilliumText22L002.otf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/Fonts/TitilliumText22L002.otf">
+						<Candidate type="Path">
+							<Value>Assets\Fonts\TitilliumText22L002.otf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TitilliumText22L003.otf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/Fonts/TitilliumText22L003.otf">
+						<Candidate type="Path">
+							<Value>Assets\Fonts\TitilliumText22L003.otf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TitilliumText22L004.otf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/Fonts/TitilliumText22L004.otf">
+						<Candidate type="Path">
+							<Value>Assets\Fonts\TitilliumText22L004.otf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TitilliumText22L005.otf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/Fonts/TitilliumText22L005.otf">
+						<Candidate type="Path">
+							<Value>Assets\Fonts\TitilliumText22L005.otf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TitilliumText22L006.otf" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/Fonts/TitilliumText22L006.otf">
+						<Candidate type="Path">
+							<Value>Assets\Fonts\TitilliumText22L006.otf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="HosgeldinImages">
+					<NamedResource name="ImgAyarlar.jpg" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/HosgeldinImages/ImgAyarlar.jpg">
+						<Candidate type="Path">
+							<Value>Assets\HosgeldinImages\ImgAyarlar.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ImgCikis.jpg" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Files/Assets/HosgeldinImages/ImgCikis.jpg">
+						<Candidate type="Path">
+							<Value>Assets\HosgeldinImages\ImgCikis.jpg</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.Xaml.Interactions">
+			<ResourceMapSubtree name="Strings">
+				<NamedResource name="CallMethodActionValidMethodNotFoundExceptionMessage" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Microsoft.Xaml.Interactions/Strings/CallMethodActionValidMethodNotFoundExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Cannot find method named {0} on object of type {1} that matches the expected signature.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CannotAttachBehaviorMultipleTimesExceptionMessage" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Microsoft.Xaml.Interactions/Strings/CannotAttachBehaviorMultipleTimesExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>An instance of a behavior cannot be attached to more than one object at a time.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CannotFindEventNameExceptionMessage" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Microsoft.Xaml.Interactions/Strings/CannotFindEventNameExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Cannot find an event named {0} on type {1}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ChangePropertyActionCannotFindPropertyNameExceptionMessage" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Microsoft.Xaml.Interactions/Strings/ChangePropertyActionCannotFindPropertyNameExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Cannot find a property named {0} on type {1}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ChangePropertyActionCannotSetValueExceptionMessage" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Microsoft.Xaml.Interactions/Strings/ChangePropertyActionCannotSetValueExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Cannot assign value of type {0} to property {1} of type {2}. The {1} property can be assigned only values of type {2}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ChangePropertyActionPropertyIsReadOnlyExceptionMessage" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Microsoft.Xaml.Interactions/Strings/ChangePropertyActionPropertyIsReadOnlyExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Property {0} defined by type {1} does not expose a set method and therefore cannot be modified.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="EventNotSupportedExceptionMessage" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Microsoft.Xaml.Interactions/Strings/EventNotSupportedExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Event {0} is not supported. Consider implementing a custom IBehavior to respond to this event.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="GoToStateActionTargetHasNoStateGroups" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Microsoft.Xaml.Interactions/Strings/GoToStateActionTargetHasNoStateGroups">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Target {0} does not define any VisualStateGroups.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InvalidLeftOperand" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Microsoft.Xaml.Interactions/Strings/InvalidLeftOperand">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Binding property of type {0} cannot be used with operator {1}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InvalidOperands" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Microsoft.Xaml.Interactions/Strings/InvalidOperands">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Binding property of type {0} and Value property of type {1} cannot be used with operator {2}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InvalidRightOperand" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Microsoft.Xaml.Interactions/Strings/InvalidRightOperand">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Value property of type {0} cannot be used with operator {1}.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.Xaml.Interactivity">
+			<ResourceMapSubtree name="Strings">
+				<NamedResource name="CannotAttachBehaviorMultipleTimesExceptionMessage" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Microsoft.Xaml.Interactivity/Strings/CannotAttachBehaviorMultipleTimesExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>An instance of a behavior cannot be attached to more than one object at a time.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DuplicateBehaviorInCollectionExceptionMessage" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Microsoft.Xaml.Interactivity/Strings/DuplicateBehaviorInCollectionExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Cannot add an instance of a behavior to a BehaviorCollection more than once.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NonActionAddedToActionCollectionExceptionMessage" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Microsoft.Xaml.Interactivity/Strings/NonActionAddedToActionCollectionExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Only IAction types are supported in an ActionCollection.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NonBehaviorAddedToBehaviorCollectionExceptionMessage" uri="ms-resource://34914HighSchoolDevelopers.OmuBumu/Microsoft.Xaml.Interactivity/Strings/NonBehaviorAddedToBehaviorCollectionExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Only IBehavior types are supported in a BehaviorCollection.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>APALYK</Machine>
+    <WindowsUser>APALYazilim</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1ed5f01c-c15d-49ef-bc77-d807fab0b132</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>0654EB7D010B6ACD7462787637006084F15E669877210563AF61B297E8750179</RegisteredManifestChecksum>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-21T13:41:27.115</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Windows\bin\Debug\OmuBumu.Windows.exe">
+      <PackagePath>OmuBumu.Windows.exe</PackagePath>
+      <Modified>2015-07-21T13:41:26.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2014-12-10T15:08:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2014-12-10T15:08:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-07-02T20:23:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\0kj08Y.png">
+      <PackagePath>Assets\0kj08Y.png</PackagePath>
+      <Modified>2015-07-15T16:39:20.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\Add.png">
+      <PackagePath>Assets\Add.png</PackagePath>
+      <Modified>2015-07-02T20:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\backbutton.png">
+      <PackagePath>Assets\backbutton.png</PackagePath>
+      <Modified>2015-07-18T07:23:56.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\Başlıksız-1.png">
+      <PackagePath>Assets\Başlıksız-1.png</PackagePath>
+      <Modified>2015-07-05T01:56:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\geritusu.png">
+      <PackagePath>Assets\geritusu.png</PackagePath>
+      <Modified>2015-07-16T02:06:18.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\ly2Plk.png">
+      <PackagePath>Assets\ly2Plk.png</PackagePath>
+      <Modified>2015-07-14T01:26:12.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\Messaging-Send-File-icon.png">
+      <PackagePath>Assets\Messaging-Send-File-icon.png</PackagePath>
+      <Modified>2015-07-02T20:13:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\oZPqv2.png">
+      <PackagePath>Assets\oZPqv2.png</PackagePath>
+      <Modified>2015-07-14T01:26:12.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\profil.png">
+      <PackagePath>Assets\profil.png</PackagePath>
+      <Modified>2015-07-02T20:12:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\profilresimguncelle.png">
+      <PackagePath>Assets\profilresimguncelle.png</PackagePath>
+      <Modified>2015-07-18T22:12:12.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\Fonts\AvenirLTStd-BookOblique.otf">
+      <PackagePath>Assets\Fonts\AvenirLTStd-BookOblique.otf</PackagePath>
+      <Modified>2015-07-02T20:12:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\Fonts\AvenirLTStd-Light.otf">
+      <PackagePath>Assets\Fonts\AvenirLTStd-Light.otf</PackagePath>
+      <Modified>2015-07-02T20:12:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\Fonts\TitilliumText22L001.otf">
+      <PackagePath>Assets\Fonts\TitilliumText22L001.otf</PackagePath>
+      <Modified>2015-07-02T20:12:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\Fonts\TitilliumText22L002.otf">
+      <PackagePath>Assets\Fonts\TitilliumText22L002.otf</PackagePath>
+      <Modified>2015-07-02T20:12:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\Fonts\TitilliumText22L003.otf">
+      <PackagePath>Assets\Fonts\TitilliumText22L003.otf</PackagePath>
+      <Modified>2015-07-02T20:12:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\Fonts\TitilliumText22L004.otf">
+      <PackagePath>Assets\Fonts\TitilliumText22L004.otf</PackagePath>
+      <Modified>2015-07-02T20:12:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\Fonts\TitilliumText22L005.otf">
+      <PackagePath>Assets\Fonts\TitilliumText22L005.otf</PackagePath>
+      <Modified>2015-07-02T20:12:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\Fonts\TitilliumText22L006.otf">
+      <PackagePath>Assets\Fonts\TitilliumText22L006.otf</PackagePath>
+      <Modified>2015-07-02T20:12:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\HosgeldinImages\ImgAyarlar.jpg">
+      <PackagePath>Assets\HosgeldinImages\ImgAyarlar.jpg</PackagePath>
+      <Modified>2015-07-16T13:30:23.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Shared\Assets\HosgeldinImages\ImgCikis.jpg">
+      <PackagePath>Assets\HosgeldinImages\ImgCikis.jpg</PackagePath>
+      <Modified>2015-07-16T13:38:31.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-07-21T13:41:26.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Windows\bin\Debug\GirisPage.xbf">
+      <PackagePath>GirisPage.xbf</PackagePath>
+      <Modified>2015-07-21T13:41:26.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Windows\bin\Debug\HosgeldinPage.xbf">
+      <PackagePath>HosgeldinPage.xbf</PackagePath>
+      <Modified>2015-07-21T13:41:26.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Windows\bin\Debug\KayitOlPage.xbf">
+      <PackagePath>KayitOlPage.xbf</PackagePath>
+      <Modified>2015-07-21T13:41:26.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Windows\bin\Debug\ProfilGuncelle.xbf">
+      <PackagePath>ProfilGuncelle.xbf</PackagePath>
+      <Modified>2015-07-21T13:41:26.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Windows\bin\Debug\SifremiUnuttum.xbf">
+      <PackagePath>SifremiUnuttum.xbf</PackagePath>
+      <Modified>2015-07-21T13:41:26.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Windows\bin\Debug\SoruDetay.xbf">
+      <PackagePath>SoruDetay.xbf</PackagePath>
+      <Modified>2015-07-21T13:41:26.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Windows\bin\Debug\SoruEkle.xbf">
+      <PackagePath>SoruEkle.xbf</PackagePath>
+      <Modified>2015-07-21T13:41:26.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Windows\bin\Debug\SoruListeleme.xbf">
+      <PackagePath>SoruListeleme.xbf</PackagePath>
+      <Modified>2015-07-21T13:41:26.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Windows\bin\Debug\UyeProfili.xbf">
+      <PackagePath>UyeProfili.xbf</PackagePath>
+      <Modified>2015-07-21T13:41:26.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Windows\bin\Debug\OmuBumu.Windows.xr.xml">
+      <PackagePath>OmuBumu.Windows.xr.xml</PackagePath>
+      <Modified>2015-07-21T13:41:26.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APALYazilim\Desktop\OmuBumu\OmuBumuUA\OmuBumu\OmuBumu.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-07-21T13:41:26.777</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
