@@ -1,0 +1,145 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.hsd.omubumu.ProfilGuncelle"
+    android:background="#3498db"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_back"
+            android:onClick="Profil_GeriOnClick" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/title_activity_profil_guncelle"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:id="@+id/Profil_imgProfil"
+                android:onClick="Profil_ResimOnClick"
+                android:layout_x="110dp"
+
+                android:background="@drawable/img"
+                android:layout_above="@+id/Profil_txtAdiSoyadi"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center" />
+
+
+        <EditText
+            android:textColor="#2980b9"
+            android:textColorHint="#3498db"
+            android:layout_width="fill_parent"
+            android:layout_height="43dp"
+            android:inputType="textPersonName"
+            android:hint="@string/strAdiSoyadi"
+            android:ems="10"
+            android:id="@+id/Profil_txtAdiSoyadi"
+            android:layout_x="-0dp"
+            android:layout_y="185dp"
+            android:background="#ecf0f1"
+
+            android:layout_above="@+id/Profil_txtEmail"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:textColor="#2980b9"
+            android:textColorHint="#3498db"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/Profil_txtEmail"
+            android:hint="@string/strEmail"
+            android:layout_x="0dp"
+            android:layout_y="241dp"
+            android:background="#ecf0f1"
+
+            android:layout_above="@+id/Profil_txtSifreTekrar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:textColor="#2980b9"
+            android:textColorHint="#3498db"
+            android:layout_width="fill_parent"
+            android:layout_height="43dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/Profil_txtSifre"
+            android:hint="@string/strSifre"
+            android:layout_x="0dp"
+            android:layout_y="297dp"
+            android:background="#ecf0f1"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:textColor="#2980b9"
+            android:textColorHint="#3498db"
+            android:layout_width="fill_parent"
+            android:layout_height="43dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/Profil_txtSifreTekrar"
+            android:hint="@string/strSifre"
+            android:layout_x="0dp"
+            android:layout_y="353dp"
+            android:background="#ecf0f1"
+
+            android:layout_above="@+id/Profil_txtSifre"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp" />
+
+
+
+
+
+
+    <Button
+
+        android:text="@string/strGuncelle"
+        android:id="@+id/button13"
+        android:onClick="Profil_btnGunclleOnClick"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_y="460dp"
+        android:background="#2980b9"
+        android:textColor="#ecf0f1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

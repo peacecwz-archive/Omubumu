@@ -1,0 +1,221 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.hsd.omubumu.SoruDetay"
+    android:background="#3498db"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageView2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_back"
+                android:onClick="SoruDetay_GeriOnClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/title_activity_soru_detay"
+                android:id="@+id/textView"
+                android:layout_gravity="center"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="false"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="160dp"
+                android:onClick="SoruDetay_Resim1OnClick">
+
+                <ImageView
+                    android:id="@+id/SoruDetay_imgResim1"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="left image"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="1"
+                    android:id="@+id/SoruDetay_lblResim2Oy"
+                    android:textSize="50dp"
+                    android:textColor="#ecf0f1"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentBottom="false"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_centerInParent="true" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_weight="0"
+                android:background="#000000"
+                android:layout_height="fill_parent"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="160dp"
+                android:onClick="SoruDetay_Resim2OnClick">
+
+                <ImageView
+                    android:id="@+id/SoruDetay_imgResim2"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="right image"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="1"
+                    android:id="@+id/SoruDetay_lblResim1Oy"
+                    android:textSize="50dp"
+                    android:textColor="#ecf0f1"
+                    android:onClick="SoruDetay_Resim1OnClick"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:scaleType="fitCenter"
+
+                app:riv_corner_radius="15dip"
+                app:riv_border_color="#333333"
+                app:riv_mutate_background="true"
+                app:riv_tile_mode="clamp"
+                app:riv_oval="true"
+
+                android:background="@android:color/transparent"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:id="@+id/SoruDetay_imgProfil"
+                android:layout_alignTop="@+id/SoruEkle_imgResim1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentEnd="false"
+                android:layout_marginLeft="65dp"
+                android:layout_centerVertical="true">
+
+                <TextView
+                    android:id="@+id/SoruDetay_lblBaslik"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:layout_alignRight="@+id/SoruDetay_lblTarih"
+                    android:layout_alignEnd="@+id/SoruDetay_lblTarih"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/SoruDetay_lblTarih"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Small Text"
+                    android:layout_alignRight="@+id/SoruDetay_imgProfil"
+                    android:layout_below="@+id/SoruDetay_lblKullaniciAdi"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/SoruDetay_lblKullaniciAdi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Small Text"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white">
+
+            <EditText
+                android:textColorHint="#3498db"
+
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:id="@+id/SoruDetay_txtYorum"
+                android:background="@android:color/white"
+                android:textColor="#2980b9"
+                android:maxLength="40"
+                android:hint="@string/strYorum"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="false" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yorum Yaz"
+                android:id="@+id/button12"
+                android:onClick="SoruDetay_btnYorumEkle"
+                android:background="#2980b9"
+                android:textColor="#ecf0f1"
+                android:gravity="center_vertical"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/SoruDetay_listYorumlar"
+            android:background="#3498db" />
+
+    </LinearLayout>
+
+    </RelativeLayout>

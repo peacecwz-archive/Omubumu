@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hsd.omubumu" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.hsd.omubumu.Giris"
+            android:label="@string/title_activity_giris" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.hsd.omubumu.KayitOl"
+            android:label="@string/title_activity_kayit_ol" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.hsd.omubumu.Hosgeldin"
+            android:label="@string/title_activity_hosgeldin" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.hsd.omubumu.Sorular"
+            android:label="@string/title_activity_sorular" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.hsd.omubumu.SoruEkle"
+            android:label="@string/title_activity_soru_ekle" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.hsd.omubumu.UyeProfil"
+            android:label="@string/title_activity_uye_profil" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.hsd.omubumu.SifremiUnuttum"
+            android:label="@string/title_activity_sifremi_unuttum" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.hsd.omubumu.SoruDetay"
+            android:label="@string/title_activity_soru_detay" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.hsd.omubumu.ProfilGuncelle"
+            android:label="@string/title_activity_profil_guncelle" >
+        </activity>
+
+    </application>
+
+</manifest>

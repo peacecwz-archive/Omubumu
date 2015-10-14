@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff3498db"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:onClick="Hosgeldin_HesabimOnClick">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:scaleType="fitCenter"
+            app:riv_corner_radius="15dip"
+            app:riv_border_color="#333333"
+            app:riv_mutate_background="true"
+            app:riv_tile_mode="clamp"
+            app:riv_oval="true"
+            android:background="@android:color/transparent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/Hosgeldin_imgProfile"
+            android:onClick="Hosgeldin_HesabimOnClick" />
+
+        <Button
+            android:id="@+id/Hosgeldin_lblUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff3498db"
+            android:text="@string/strHesabim"
+            android:textColor="#ffecf0f1"
+            android:onClick="Hosgeldin_HesabimOnClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3498db"
+            android:text="@string/strSoruEkle"
+            android:textColor="#ffecf0f1"
+            android:layout_above="@+id/button4"
+            android:layout_alignParentLeft="true"
+            android:onClick="Hosgeldin_SoruEkleOnClick" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3498db"
+            android:text="@string/strSorular"
+            android:textColor="#ffecf0f1"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="Hosgeldin_SorularOnClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="Hosgeldin_CikisOnClick">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logoutico"
+            android:layout_above="@+id/button7"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:background="#ff3498db"
+            android:text="@string/strCikisYap"
+            android:textColor="#ffecf0f1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="Hosgeldin_AyarlarOnClick">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/settingsico"
+            android:layout_above="@+id/button7"
+            android:layout_alignRight="@+id/button7"
+            android:layout_alignEnd="@+id/button7"
+            android:nestedScrollingEnabled="false"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:background="#ff3498db"
+            android:text="@string/strAyarlar"
+            android:textColor="#ffecf0f1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</RelativeLayout>

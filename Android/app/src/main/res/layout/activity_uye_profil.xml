@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.hsd.omubumu.UyeProfil"
+    android:background="#3498db">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageView2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_back"
+                android:onClick="UyeProfil_GeriOnClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/title_activity_uye_profil"
+                android:id="@+id/textView"
+                android:layout_gravity="center"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="false"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/uyeProfil_imgProfil"
+            android:scaleType="fitCenter"
+            app:riv_corner_radius="30dip"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:riv_border_color="#333333"
+            app:riv_mutate_background="true"
+            app:riv_tile_mode="clamp"
+            app:riv_oval="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/uyeProfil_lblAdiSoyadi"
+            android:layout_alignEnd="@+id/uyeProfil_lblAdiSoyadi"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/uyeProfil_lblAdiSoyadi"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ecf0f1"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/uyeProfil_lblKullaniciAdi"
+            android:textColor="#ecf0f1"
+            android:layout_below="@+id/uyeProfil_lblAdiSoyadi"
+            android:layout_alignRight="@+id/uyeProfil_lblAdiSoyadi"
+            android:layout_alignEnd="@+id/uyeProfil_lblAdiSoyadi"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <GridView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/uyeProfil_listSorular"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/uyeProfil_lblKullaniciAdi" />
+
+    </LinearLayout>
+
+</RelativeLayout>

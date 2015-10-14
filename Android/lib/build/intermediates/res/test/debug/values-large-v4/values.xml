@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/APALYazilim/AndroidStudioProjects/OmuBumu/OmuBumu/lib/build/intermediates/bundles/debug/res/values-large-v4/values.xml -->
+    <eat-comment/>
+    <dimen name="crop__bar_height">64dp</dimen>
+</resources>

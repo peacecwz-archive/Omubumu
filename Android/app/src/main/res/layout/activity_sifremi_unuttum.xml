@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.hsd.omubumu.SifremiUnuttum"
+    android:background="#3498db">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_back"
+            android:onClick="SifremiUnt_GeriOnClick" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/title_activity_sifremi_unuttum"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <EditText
+        android:textColor="#2980b9"
+        android:textColorHint="#3498db"
+        android:layout_width="372dp"
+        android:layout_height="44dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/sifremiUnt_txtEmail"
+        android:hint="@string/strEmail"
+        android:layout_x="0dp"
+        android:layout_y="254dp"
+        android:background="#ecf0f1"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+    <Button
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:text="@string/strGonder"
+        android:id="@+id/button"
+        android:onClick="SifremiUnt_btnGonderOnClick"
+        android:layout_x="4dp"
+        android:layout_y="342dp"
+        android:textColor="#ecf0f1"
+        android:background="#2980b9"
+        android:layout_marginBottom="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

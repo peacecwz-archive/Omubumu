@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/widget39"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#3498db"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:background="#ff3498db"
+        android:text="@string/strSifremiUnuttum"
+        android:textColor="#ffecf0f1"
+        android:onClick="Giris_BtnSifremiUntClick"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#ffecf0f1"
+        android:singleLine="true"
+        android:textColorHint="#2980b9"
+        android:layout_marginBottom="101dp"
+        android:hint="@string/strSifre"
+        android:maxLines="1"
+        android:textColor="#ff2980b9"
+        android:layout_below="@+id/giris_kullaniciAdi"
+        android:layout_alignParentLeft="true"
+        android:password="true" />
+
+
+
+    <com.dd.processbutton.iml.ActionProcessButton
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strGirisYap"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+android:singleLine="true"
+        android:onClick="Giris_BtnGirisOnClick"
+        android:layout_above="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2" />
+
+    <EditText
+        android:id="@+id/giris_kullaniciAdi"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:singleLine="true"
+        android:background="#ffecf0f1"
+        android:hint="@string/strKullaniciAdi"
+        android:textColor="#ff2980b9"
+        android:layout_below="@+id/imageView"
+        android:textColorHint="#2980b9"
+        android:layout_alignParentLeft="true" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="215dp"
+        android:layout_height="215dp"
+        android:layout_marginRight="60dp"
+        android:src="@mipmap/uygulamalogosu"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/giris_btnKayitOl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff3498db"
+        android:text="@string/strKayitOl"
+        android:textColor="#ffecf0f1"
+        android:onClick="Giris_BtnKayitOnClick"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

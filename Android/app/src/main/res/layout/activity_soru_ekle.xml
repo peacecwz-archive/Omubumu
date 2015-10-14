@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#3498db"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_back"
+            android:onClick="SoruEkle_GeriOnClick" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/title_activity_soru_ekle"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+        <EditText
+            android:id="@+id/soruEkle_Baslik"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/strBaslik"
+            android:textColorHint="#3498db"
+            android:textColor="#34495e"
+            android:background="@android:color/white"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/soruEkle_Aciklama"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:hint="@string/strAciklama"
+            android:textColorHint="#3498db"
+            android:textColor="#34495e"
+            android:background="@android:color/white"
+            android:layout_marginTop="20dp" />
+
+    <Spinner
+            android:id="@+id/SoruEkle_listKategoriler"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_marginTop="20dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:scaleType="fitCenter"
+            app:riv_corner_radius="30dip"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:riv_border_color="#333333"
+            app:riv_mutate_background="true"
+            app:riv_tile_mode="clamp"
+            app:riv_oval="true"
+
+            android:id="@+id/SoruEkle_imgResim1"
+            android:src="@drawable/soruresimekleicon"
+
+            android:onClick="SoruEkle_Resim1OnClick" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+
+                    android:scaleType="fitCenter"
+
+                    android:id="@+id/SoruEkle_imgResim2"
+                    android:src="@drawable/soruresimekleicon"
+
+                    app:riv_corner_radius="30dip"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    app:riv_border_color="#333333"
+                    app:riv_mutate_background="true"
+                    app:riv_tile_mode="clamp"
+                    app:riv_oval="true"
+
+                    android:background="@android:color/transparent"
+                    android:onClick="SoruEkle_Resim2OnClick" />
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/button11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/strSoruEkle"
+            android:textColorHint="#ecf0f1"
+            android:textColor="#ecf0f1"
+            android:background="#2980b9"
+            android:onClick="SoruEkle_EkleOClick" />
+
+
+</LinearLayout>

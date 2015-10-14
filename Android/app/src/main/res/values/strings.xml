@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">O mu ? Bu mu ? </string>
+    <string name="title_activity_giris">O mu ? Bu mu ?</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="strKullaniciAdi">Kullanıcı Adı</string>
+    <string name="strSifre">Şifre</string>
+    <string name="strGirisYap">Giriş Yap</string>
+    <string name="strKayitOl">Hesabınız yok mu ? Şimdi Üye Ol</string>
+    <string name="strKayitOl2">Zaten hesabınız var mı ? Giriş Yap</string>
+    <string name="title_activity_kayit_ol">Kayıt Ol</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_hosgeldin">Hoşgeldin</string>
+    <string name="strEmail">E-Mail</string>
+    <string name="strAdiSoyadi">Adı Soyadı</string>
+    <string name="strSorular">Sorular</string>
+    <string name="strSoruEkle">Soru Ekle</string>
+    <string name="strCikisYap">Çıkış Yap</string>
+    <string name="strAyarlar">Ayarlar</string>
+    <string name="strHesabim">Hesabım</string>
+    <string name="title_activity_sorular">Sorular</string>
+    <string name="title_activity_soru_ekle">Soru Ekle</string>
+    <string name="strBaslik">Başlık</string>
+    <string name="strAciklama">Açıklama</string>
+    <string name="strResim1">Resim 1</string>
+    <string name="strResim2">Resim 2</string>
+    <string name="KayitolYazi1">Hesabınız yok mu ?</string>
+    <string name="KayitolYazi2">Üye Ol</string>
+    <string name="title_activity_uye_profil">Üye Profil</string>
+    <string name="title_activity_sifremi_unuttum">Şifremi Unuttum</string>
+    <string name="strSifremiUnuttum">Şifremi Unuttum</string>
+    <string name="strGonder">Gönder</string>
+    <string name="title_activity_soru_detay">Soru Detay</string>
+    <string name="title_activity_profil_guncelle">Profil Güncelle</string>
+    <string name="strProfilGuncelle">Profil Güncelle</string>
+    <string name="strGuncelle">Güncelle</string>
+    <string name="strYorum">Yorumunuz...</string>
+    <string name="fbAppID">742646162535087</string>
+</resources>
