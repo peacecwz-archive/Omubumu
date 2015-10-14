@@ -1,5 +1,6 @@
 # Omubumu
-Omubumu projesi örnek PHP REST API ve Shared Wİndows 8.1 &amp; Phone 8.1 Projesidir
+
+Proje Database olarak MySQL, Backend olarak PHP REST API ve Client olarak Android ve Shared Wİndows Project olarak kodlanmıştır.
 
 #Projeyi Geliştirenler
 
