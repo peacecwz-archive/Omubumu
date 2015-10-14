@@ -46,14 +46,14 @@ function SifreGonder($EMail,$AdSoyad,$Sifre){
     $mail->IsSMTP();
     $mail->SMTPDebug = false; 
     $mail->SMTPAuth = true;
-    $mail->Host = "mail.barisceviz.com"; 
+    $mail->Host = "MailHost"; 
     $mail->Port = 587; 
     $mail->IsHTML(true);
     $mail->SetLanguage("tr", "phpmailer/language");
     $mail->CharSet  ="utf-8";
-    $mail->Username = "destek@barisceviz.com"; 
-    $mail->Password = "Peace_Sys01"; 
-    $mail->SetFrom("destek@barisceviz.com", "O mu Bu mu Ekibi"); 
+    $mail->Username = "MailUsername"; 
+    $mail->Password = "Password"; 
+    $mail->SetFrom("support@omubumuapp.com", "O mu Bu mu Ekibi"); 
     $mail->AddAddress($EMail);
     $mail->Subject = "O mu Bu mu - Þfreniz Sýfýrlandý";
     $mail->Body = "

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 require("SMTP/class.phpmailer.php");
 
@@ -130,13 +130,13 @@ function SifirlamaMailGonder($EMail,$AdSoyad,$ResetKey){
     $mail->IsSMTP();
     $mail->SMTPDebug = false; 
     $mail->SMTPAuth = true;
-    $mail->Host = "mail.omubumuapp.com"; 
+    $mail->Host = "MailHost"; 
     $mail->Port = 25; 
     $mail->IsHTML(true);
     $mail->SetLanguage("tr", "phpmailer/language");
     $mail->CharSet  ="utf-8";
-    $mail->Username = "support@omubumuapp.com"; 
-    $mail->Password = "Lzwn817$"; 
+    $mail->Username = "MailUsername"; 
+    $mail->Password = "Password"; 
     $mail->SetFrom("support@omubumuapp.com", "O mu Bu mu Destek Ekibi"); 
     $mail->AddAddress($EMail);
     $mail->Subject = "O mu Bu mu - Şfre Sıfırlama";
