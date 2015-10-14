@@ -1,8 +1,8 @@
 # Omubumu
 
-Proje Database olarak MySQL, Backend olarak PHP REST API ve Client olarak Android ve Shared Wİndows Project olarak kodlanmıştır.
+Proje Database olarak MySQL, Backend olarak PHP REST API ve Client olarak Android ve Shared Wİndows Project olarak kodlanmıştır. Proje eksiklikleri olabilir. Son halini şuan kimse hatırlamamktadır :)
 
-#Projeyi Geliştirenler
+#Geliştiriciler
 
 Kadircan Kırkoyun
 
