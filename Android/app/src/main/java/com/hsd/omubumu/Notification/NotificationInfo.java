@@ -12,9 +12,6 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
-/**
- * Created by APALYazilim on 25.7.2015.
- */
 public class NotificationInfo {
     public GoogleCloudMessaging gcm;
     private final static int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
