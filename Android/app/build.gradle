@@ -1,13 +1,5 @@
 apply plugin: 'com.android.application'
 android {
-    signingConfigs {
-        app {
-            keyAlias 'googleplay'
-            keyPassword '12241224'
-            storeFile file('C:/Users/APALYazilim/.android/googlePlay.jks')
-            storePassword '12241224'
-        }
-    }
     compileSdkVersion 21
     buildToolsVersion "21.1.2"
     defaultConfig {
