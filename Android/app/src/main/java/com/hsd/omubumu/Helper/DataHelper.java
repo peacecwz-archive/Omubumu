@@ -5,9 +5,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-/**
- * Created by APALYazilim on 9.7.2015.
- */
 public class DataHelper {
     public static String ReadInputStream(InputStream st){
         try {

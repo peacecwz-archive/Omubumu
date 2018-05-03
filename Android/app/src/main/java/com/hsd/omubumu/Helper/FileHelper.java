@@ -14,9 +14,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- * Created by APALYazilim on 13.7.2015.
- */
 public class FileHelper {
     public static String GetFileNameFromPath(Uri uri,Context context) {
         String result = null;

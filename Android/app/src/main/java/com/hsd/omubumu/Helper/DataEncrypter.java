@@ -5,9 +5,6 @@ import android.util.Base64;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
 
-/**
- * Created by APALYazilim on 23.7.2015.
- */
 public class DataEncrypter {
     private static char[] Original = "ABCDEFGHIİJKLMNOPRSŞTUÜVYZWXQ1234567890!'^+%&/()=?_><:.;,~>£#½{[]}|abcdefghıijklmnoöprsştuüvyzwqx".toCharArray();
 

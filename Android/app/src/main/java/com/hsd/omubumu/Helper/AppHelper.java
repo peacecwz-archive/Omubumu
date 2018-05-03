@@ -5,9 +5,6 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.os.Build;
 
-/**
- * Created by APALYazilim on 25.7.2015.
- */
 public class AppHelper extends Activity {
     public boolean isOnline() {
         ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);

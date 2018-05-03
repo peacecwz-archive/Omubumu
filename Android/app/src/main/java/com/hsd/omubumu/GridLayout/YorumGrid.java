@@ -14,9 +14,6 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-/**
- * Created by APALYazilim on 24.7.2015.
- */
 public class YorumGrid extends BaseAdapter {
     private Context mContext;
     private List<Yorum> yorumlar;

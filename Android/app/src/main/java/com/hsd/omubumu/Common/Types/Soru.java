@@ -2,9 +2,7 @@ package com.hsd.omubumu.Common.Types;
 
 import java.io.Serializable;
 
-/**
- * Created by APALYazilim on 9.7.2015.
- */
+
 public class Soru implements Serializable {
     public String SoruID;
     public String UyeID;

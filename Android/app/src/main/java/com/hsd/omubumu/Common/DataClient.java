@@ -22,9 +22,6 @@ import java.util.ArrayList;
 import java.util.Dictionary;
 import java.util.List;
 
-/**
- * Created by APALYazilim on 9.7.2015.
- */
 public class DataClient implements Serializable {
     private HttpClient Client = new HttpClient();
     private String Url = "http://omubumuapp.com/api";

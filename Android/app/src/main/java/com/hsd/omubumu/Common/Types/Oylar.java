@@ -2,9 +2,6 @@ package com.hsd.omubumu.Common.Types;
 
 import java.io.Serializable;
 
-/**
- * Created by APALYazilim on 9.7.2015.
- */
 public class Oylar implements Serializable {
     private String ToplamOy;
     private String Resim1Oy;

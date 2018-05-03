@@ -5,9 +5,6 @@ import android.graphics.Color;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
-/**
- * Created by APALYazilim on 10.7.2015.
- */
 public class Mesaj {
     public static void SonucMesaj(String mesaj,Context context)
     {

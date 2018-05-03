@@ -14,9 +14,6 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-/**
- * Created by APALYazilim on 12.7.2015.
- */
 public class SoruGrid extends BaseAdapter {
     private Context mContext;
     private List<Soru> sorular;
