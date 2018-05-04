@@ -39,6 +39,10 @@ A step by step series of building that project
 
 ![http://1.bp.blogspot.com/-xdS8h3JFJ-0/Vc3D8gwMKSI/AAAAAAAAUQ0/0AAYxIU5vYA/s1600/O%2Bmu%2B%2BBu%2Bmu%2B.png](http://1.bp.blogspot.com/-xdS8h3JFJ-0/Vc3D8gwMKSI/AAAAAAAAUQ0/0AAYxIU5vYA/s1600/O%2Bmu%2B%2BBu%2Bmu%2B.png)
 
+## Security Bugs
+
+It has someone security bugs. For example image upload process has a security bug. If you like this project, you can fix and create pull request :)
+
 ## Built With
 
 * [PHP](http://php.net/) 
