@@ -52,6 +52,11 @@ A step by step series of building that project
 * If you want to contribute to codes, create pull request
 * If you find any bugs or error, create an issue
 
+## Contributers
+
+* Kadir Can Kırkoyun [Github](https://github.com/kadircankirkoyun) [Twitter](https://twitter.com/kkirkoyun)
+* Oğuzhan Akıncı [Github](https://github.com/oguzhanaknc) [Twitter](https://twitter.com/oguzhanaknc)
+
 ## License
 
 This project is licensed under the MIT License
